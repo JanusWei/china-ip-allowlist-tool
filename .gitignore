@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+
+日志/
+结果/候选版本/
+结果/历史版本/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
