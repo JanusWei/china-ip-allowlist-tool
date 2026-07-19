@@ -1,0 +1,40 @@
+{
+  "APNIC数据源": {
+    "数据地址": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
+    "MD5地址": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest.md5",
+    "超时秒数": 90
+  },
+  "地区": {
+    "CN": "中国大陆",
+    "HK": "中国香港",
+    "MO": "中国澳门",
+    "TW": "中国台湾"
+  },
+  "记录状态": [
+    "allocated",
+    "assigned"
+  ],
+  "校验": {
+    "数据最大滞后天数": 3,
+    "最大删除地址比例": 0.05,
+    "最少CIDR数量": {
+      "CN": {
+        "IPv4": 1000,
+        "IPv6": 50
+      },
+      "HK": {
+        "IPv4": 500,
+        "IPv6": 50
+      },
+      "MO": {
+        "IPv4": 10,
+        "IPv6": 2
+      },
+      "TW": {
+        "IPv4": 100,
+        "IPv6": 20
+      }
+    }
+  },
+  "输出目录": "结果"
+}
